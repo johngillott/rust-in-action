@@ -41,3 +41,14 @@ cargo doc --open --manifest-path grep-lite/Cargo.toml
 ### vscode
 
 [rls-vscode](https://github.com/rust-lang/rls-vscode)
+
+[Visual Studio Code is unable to watch for file changes in this large workspace](https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc)
+
+```json
+"files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/target/**": true // add me
+  }
+```
