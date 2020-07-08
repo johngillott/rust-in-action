@@ -8,6 +8,34 @@ Rust in Action book exercises
 cargo build --manifest-path ./grep-lite/Cargo.toml
 ```
 
+## run
+
+### example
+
+```bash
+cargo run --manifest-path ./grep-lite/Cargo.toml -- picture
+```
+
+### help
+
+```bash
+cargo run --manifest-path ./grep-lite/Cargo.toml rustc --help
+```
+
+## documentation
+
+### standard documentation
+
+```bash
+rustup doc
+```
+
+### crate documentation
+
+```bash
+cargo doc --open --manifest-path grep-lite/Cargo.toml
+```
+
 ## ide
 
 ### vscode
