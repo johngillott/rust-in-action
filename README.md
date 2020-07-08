@@ -13,7 +13,7 @@ cargo build --manifest-path ./grep-lite/Cargo.toml
 ### example
 
 ```bash
-cargo run --manifest-path ./grep-lite/Cargo.toml -- picture
+cargo run --manifest-path ./grep-lite/Cargo.toml -- picture ch2-read-file/readme.md
 ```
 
 ### help
