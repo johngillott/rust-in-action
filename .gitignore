@@ -16,3 +16,6 @@
 .**/.vscode/
 # Intellij
 .idea/
+
+# documentation
+**/doc/

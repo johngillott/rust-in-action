@@ -36,6 +36,12 @@ rustup doc
 cargo doc --open --manifest-path grep-lite/Cargo.toml
 ```
 
+### generating documentation from source
+
+```bash
+rustdoc ch3-file-docs/src/main.rs -o ch3-file-docs/doc/
+```
+
 ## ide
 
 ### vscode
